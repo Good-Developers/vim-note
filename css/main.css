@@ -1,0 +1,96 @@
+/* Reset */
+html {
+  font-size: 14px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Container */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  padding: 16px 0;
+}
+
+.header .header__logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Section */
+
+.section {
+  padding: 60px 0;
+}
+
+.section-01 {
+  background-color: #f8f8f6;
+}
+
+.section-01 .section-01-left {
+  display: inline-block;
+  position: relative;
+  max-width: 400px;
+}
+
+.section-01 .section-01-left .section-01-left__title {
+  margin-bottom: 1.5rem;
+  font-size: 4rem;
+}
+
+.section-01 .section-01-left .section-01-left__subtitle {
+  margin-bottom: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.section-01 .section-01-left .img {
+  position: absolute;
+  top: -30px;
+  left: 400px;
+  width: 600px;
+  height: 900px;
+  background: url(../img/app_01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Button */
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  background-color: #41cd8c;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn.btn--large {
+  padding: 1rem 4rem;
+  font-size: 1.2rem;
+}
