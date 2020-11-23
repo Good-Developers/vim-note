@@ -19,6 +19,17 @@ p {
   margin: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li {
+  padding: 0;
+  list-style: none;
+}
+
 /* Container */
 .container {
   width: 1024px;
@@ -126,6 +137,77 @@ p {
 .right-section-wrapper .right-section__subtitle {
   margin-bottom: 2.5rem;
   font-size: 1.2rem;
+}
+
+/* Footer */
+
+/* section-01 */
+.footer .footer-section-01 {
+  padding-top: 50px;
+}
+
+.footer .footer-brand {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-brand .footer-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-brand .footer-appstore {
+  display: flex;
+}
+
+.footer-appstore img {
+  width: 160px;
+  height: 48px;
+}
+
+/* section-02 */
+.footer .footer-section-02 {
+  padding: 40px 0;
+}
+
+.footer-navigation {
+  display: flex;
+}
+
+.footer-navigation .footer-nav {
+  flex: 1;
+}
+
+.footer-nav h4 {
+  margin: 16px 0;
+  font-size: 1.5rem;
+}
+
+.footer-nav li {
+  padding: 8px 0;
+}
+
+.footer-nav .footer-social-nav {
+  display: flex;
+}
+
+.footer-nav .footer-social-nav img {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+/* section 03 */
+.footer .footer-section-03 {
+  padding-bottom: 50px;
+}
+
+.footer-copyright {
+  display: flex;
+}
+
+.footer-copyright p {
+  color: #676767;
 }
 
 /* Button */
